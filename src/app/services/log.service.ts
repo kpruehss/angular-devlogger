@@ -1,16 +1,13 @@
-import { Component, OnInit } from '@angular/core';
-import { Log } from '../../models/log.model';
+import { Injectable } from '@angular/core';
+import { Log } from '../models/log.model';
 
-@Component({
-  selector: 'app-logs',
-  templateUrl: './logs.component.html',
-  styleUrls: ['./logs.component.css'],
+@Injectable({
+  providedIn: 'root',
 })
-export class LogsComponent implements OnInit {
+export class LogService {
   logs: Log[];
-  constructor() {}
 
-  ngOnInit() {
+  constructor() {
     this.logs = [
       {
         id: '1',

@@ -22,10 +22,11 @@
     "@angular/router": "^6.1.0",
     "@ng-bootstrap/ng-bootstrap": "^3.2.0",
     "@ng-bootstrap/schematics": "^2.0.0-alpha.1",
+    "bootstrap": "^4.0.0",
     "core-js": "^2.5.4",
+    "font-awesome": "^4.7.0",
     "rxjs": "^6.0.0",
-    "zone.js": "~0.8.26",
-    "bootstrap": "^4.0.0"
+    "zone.js": "~0.8.26"
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "~0.7.0",
@@ -46,6 +47,7 @@
     "protractor": "~5.4.0",
     "ts-node": "~5.0.1",
     "tslint": "~5.9.1",
+    "tslint-config-prettier": "^1.15.0",
     "typescript": "~2.7.2"
   }
 }
